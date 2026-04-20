@@ -1,0 +1,107 @@
+/* Blaise Amisi
+03/08/2025 */ 
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d6d546b; 
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Form Styling */
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Fieldset Styling */
+fieldset {
+    margin: 20px auto;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Legend Styling */
+legend {
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Label Styling */
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;;
+    margin-left: 10px;
+
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+/* Input and Select Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+/* Checkbox Group */
+.checkbox-group {
+    display: flex;;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    gap: 5px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 80%;
+    resize: none;
+    height: 80px;
+}
+
+/* Submit Button */
+button {
+    display: block;
+    width: 20%;
+    background-color: #b9b9138b;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f5d1f;
+}
