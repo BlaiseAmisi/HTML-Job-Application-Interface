@@ -1,0 +1,88 @@
+<!-- 
+    Name: Blaise Amisi
+    Date: 03/08/2025
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Form Example</h1>
+
+    <form>
+
+        <!-- Application Information Block -->
+        <fieldset>
+            <legend>Application Information</legend>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone">
+            </div>
+
+        </fieldset>
+
+        <!-- Job Interest Block -->
+        <fieldset>
+            <legend>Job Interest</legend>
+            <label>I am interested in:</label>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="interest" value="programming"> Programming</label>
+                <label><input type="checkbox" name="interest" value="networking"> Networking</label>
+                <label><input type="checkbox" name="interest" value="mobile_dev"> Mobile App Development</label>
+                <label><input type="checkbox" name="interest" value="web_dev"> Web Development</label>
+            
+            </div>
+
+            <div class="form-group">
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date">
+            </div>
+
+        </fieldset>
+
+        <!-- Referral Source Block -->
+        <fieldset>
+            <legend>Referral Source</legend>
+
+            <select>
+                <option value="none">Advertissement</option>
+                <option value="friend">Friend</option>
+                <option value="website">Company Website</option>
+                <option value="social_media">Social Media</option>
+                <option value="other">Other</option>
+            </select>
+        
+        </fieldset>
+
+        <!-- Comments and Questions Block -->
+        <fieldset>
+            <legend>Comments and Questions</legend>
+            <label for="questions">Questions?</label>
+            <textarea id="questions" rows="4"></textarea>
+
+        </fieldset>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
